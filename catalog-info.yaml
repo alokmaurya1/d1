@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "d1"
+  description: "d1"
+  annotations:
+    github.com/project-slug: "alokmaurya1/d1"
+    backstage.io/techdocs-ref: github:https://github.com/alokmaurya1/d1
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "d1"
